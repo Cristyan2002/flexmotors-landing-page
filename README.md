@@ -4,7 +4,7 @@
 
 ## 🎯 Sobre o Projeto
 
-O objetivo principal deste projeto era aplicar e solidificar o conhecimento em CSS Flexbox para construir um site de página única, moderno e totalmente responsivo. Cada seção foi desenhada para explorar diferentes desafios de layout, como headers complexos, grids de produtos, tabelas de preço e seções de conteúdo assimétricas.
+O objetivo principal deste projeto era aplicar e solidificar o conhecimento em CSS Flexbox para construir um site de página única, moderno e totalmente responsivo. Cada seção foi desenhada para explorar diferentes desafios de layout, como headers complexos, grids de produtos, tabelas de preço e seções de conteúdo assimétricas..
 
 ## 🚀 Tecnologias Utilizadas
 
