@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+    <title>FlexMotors</title>
+</head>
+
+<body>
+    <header class="hero-bg">
+        <div class="header-container">
+            <div class="information">
+                <p>Seg / Sex - 08:00 às 18:00</p>
+                <a href="tel=41984449264">(41) 98444-9264</a>
+                <p>Rua do Flexbox, Nº 9999 - PR</p>
+            </div>
+            <div class="menu">
+                <a href="#" class="logo">FlexMotors</a>
+                <nav class="navegacao">
+                    <ul>
+                        <li><a href="#sobre">Sobre</a></li>
+                        <li><a href="#produtos">Produtos</a></li>
+                        <li><a href="#precos">Preço</a></li>
+                        <li><a href="#qualidade">Qualidade</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div class="hero-titulo">
+            <h1>Layouts Modernos <br>com Flexbox</h1>
+        </div>
+    </header>
+
+    <main class="sobre-bg" id="sobre">
+        <div class="sobre-container">
+
+            <div class="sobre-texto">
+                <h2 class="text-detail">Sobre este <br>Projeto de Estudo</h2>
+                <p>Este site foi desenvolvido como um projeto prático para aprofundar meus conhecimentos em CSS Flexbox. O objetivo era criar um layout moderno e responsivo, aplicando os principais conceitos do Flexbox para organizar e alinhar elementos de forma eficiente.</p>
+            </div>
+            <div class="sobre-imagens-coluna">
+                <img src="img/foto1.jpg" alt="Foto de um carro verde na diagonal">
+            </div>
+            <div class="sobre-imagens-coluna">
+                <img src="img/foto2.jpg" alt="Foto de um carro verde ">
+            </div>
+
+        </div>
+    </main>
+    <section class="produtos-bg" id="produtos">
+        <h1 class="titulo-produtos">PRODUTOS</h1>
+        <p class="texto-produtos">SOMOS OS MAIORES VENDEDORES DE CARROS ANTIGOS</p>
+        <div class="produtos-container">
+            <div class="produto-item">
+                <h2>Mercedes-Benz</h2>
+                <p>Um ícone de luxo e engenharia alemã. Dirigir este clássico é voltar no tempo com estilo e sofisticação.</p>
+                <img src="img/foto3.jpg" alt="Foto de uma Mercedes-Benz antiga de cor prata." class="img3">
+            </div>
+            <div class="produto-item">
+                <h2>Mini Cooper</h2>
+                <p>Pequeno no tamanho, gigante no carisma. O Mini Cooper é a definição de diversão sobre quatro rodas, perfeito para a cidade.</p>
+                <img src="img/foto4.jpg" alt="Foto de um Mini Cooper antigo de cor vermelha com teto branco." class="img4">
+            </div>
+            <div class="produto-item">
+                <h2>Chevrolet Opala</h2>
+                <p>O muscle car brasileiro que marcou gerações. Robusto, potente e com um design inesquecível.</p>
+                <img src="img/foto5.jpg" alt="Foto de um Chevrolet Opala antigo de cor preta." class="img5">
+            </div>
+        </div>
+    </section>
+    <section class="precos-bg" id="precos">
+        <div class="precos-container-geral">
+            <h2 class="titulo-precos">PREÇOS</h2>
+            <div class="precos-lista">
+                <div class="preco-item">
+                    <h3>Mercedes-Benz</h3>
+                    <span class="preco"><sup>R$</sup>200.000</span>
+                    <ul>
+                        <li>Conforto e Luxo Inigualáveis</li>
+                        <li>Engenharia Alemã de Precisão</li>
+                        <li>Design Atemporal e Elegante</li>
+                        <li>Alto Valor de Revenda</li>
+                    </ul>
+                    <a href="#" class="botao">Comprar Agora</a>
+                </div>
+
+                <div class="preco-item">
+                    <h3>Mini Cooper</h3>
+                    <span class="preco"><sup>R$</sup>120.000</span>
+                    <ul>
+                        <li>Direção Ágil e Divertida (Go-Kart Feel)</li>
+                        <li>Design Icônico e Carismático</li>
+                        <li>Compacto e Ideal para a Cidade</li>
+                        <li>Ampla Opção de Customização</li>
+                    </ul>
+                    <a href="#" class="botao">Comprar Agora</a>
+                </div>
+
+                <div class="preco-item">
+                    <h3>Chevrolet Opala</h3>
+                    <span class="preco"><sup>R$</sup>90.000</span>
+                    <ul>
+                        <li>Ícone Nacional e Paixão Brasileira</li>
+                        <li>Motor Potente e Som Inconfundível</li>
+                        <li>Manutenção Robusta e Confiável</li>
+                        <li>Forte Comunidade de Fãs</li>
+                    </ul>
+                    <a href="#" class="botao">Comprar Agora</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="qualidade" id="qualidade">
+        <div class="qualidade-wrapper">
+            <h2 class="qualidade-titulo-geral">Por que Escolher a FlexMotors?</h2>
+            <div class="qualidade-lista">
+                <div class="qualidade-item">
+                    <h3>Paixão por Clássicos</h3>
+                    <p>Não apenas vendemos carros, compartilhamos da mesma paixão que você. Cada veículo é tratado com o respeito que sua história merece.</p>
+                </div>
+                <div class="qualidade-item">
+                    <h3>Qualidade Garantida</h3>
+                    <p>Todos os nossos veículos passam por uma inspeção rigorosa para garantir que você está adquirindo um clássico em perfeitas condições.</p>
+                </div>
+                <div class="qualidade-item">
+                    <h3>Atendimento Exclusivo</h3>
+                    <p>Oferecemos uma consultoria personalizada para ajudar você a encontrar o carro antigo dos seus sonhos, entendendo suas necessidades e desejos.</p>
+                </div>
+                <div class="qualidade-item">
+                    <h3>Transparência Total</h3>
+                    <p>Processo de compra e venda claro, com todo o histórico do veículo documentado. Sem surpresas ou letras miúdas.</p>
+                </div>
+                <div class="qualidade-item">
+                    <h3>Processo Descomplicado</h3>
+                    <p>Cuidamos de toda a burocracia para que sua única preocupação seja aproveitar a estrada com seu novo veículo.</p>
+                </div>
+                <div class="qualidade-item">
+                    <h3>Suporte Pós-Venda</h3>
+                    <p>Nossa relação não termina com a venda. Oferecemos uma rede de contatos e suporte para manutenção e cuidados com o seu clássico.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>FLEXMOTORS TODOS OS DIREITOS RESERVADOS</p>
+    </footer>
+</body>
+
+</html>
